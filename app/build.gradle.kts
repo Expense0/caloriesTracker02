@@ -49,6 +49,31 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    //Datastore preferences
+    implementation(libs.androidx.datastore.preferences)
+    implementation(libs.androidx.datastore)
+
+    //Room
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
+
+    //Gson
+    implementation(libs.gson)
+
+    //Retrofit
+    implementation(libs.converter.gson)
+    implementation(libs.logging.interceptor)
+    implementation(libs.junit)
+    implementation(libs.mockito.core)
+    implementation(libs.mockito.kotlin)
+    implementation(libs.kotlinx.coroutines.test)
+    implementation(libs.activity.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

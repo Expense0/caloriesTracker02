@@ -32,3 +32,17 @@ val Typography = Typography(
     )
     */
 )
+
+val AppTypography = Typography(
+    displayLarge = TextStyle(
+        fontFamily = FontFamily.SansSerif,
+        fontWeight = FontWeight.Bold,
+        fontSize = 57.sp
+    ),
+    bodyLarge = TextStyle(
+        fontFamily = FontFamily.SansSerif,
+        fontSize = 16.sp,
+        lineHeight = 24.sp
+    )
+    // 补充其他排版层级...
+)

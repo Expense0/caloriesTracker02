@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">caloriesTracker02</string>
+    <string name="recently_eaten">Recently eaten</string>
+    <string name="upload_prompt">You haven\'t uploaded any food\nStart tracking today\'s meals by taking\na quick pictures</string>
+    <string name="upload_description">Upload meal photo</string>
+    <string name="add_meal_photo">Add Meal Photo</string>
+    <string name="select_photo_source">Select photo source</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="cancel">Cancel</string>
 </resources>
